@@ -1,0 +1,704 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"em",
+				"emit"
+			],
+			[
+				"dele",
+				"delete"
+			],
+			[
+				"In",
+				"Input"
+			],
+			[
+				"get",
+				"getProfile"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"iden",
+				"IdentityGuard"
+			],
+			[
+				"_rout",
+				"_router"
+			],
+			[
+				"Ro",
+				"Router"
+			],
+			[
+				"co",
+				"core"
+			],
+			[
+				"c",
+				"category"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"_",
+				"_router"
+			],
+			[
+				"getC",
+				"getCategories"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"post-",
+				"post-edit"
+			],
+			[
+				"post",
+				"post-edit"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"po",
+				"post"
+			],
+			[
+				"compon",
+				"component"
+			],
+			[
+				"whi",
+				"width"
+			],
+			[
+				"_ro",
+				"_router"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"_catego",
+				"_categoryService"
+			],
+			[
+				"catego",
+				"categories"
+			],
+			[
+				"conte",
+				"content"
+			],
+			[
+				"L",
+				"label"
+			],
+			[
+				"tit",
+				"title"
+			],
+			[
+				"ser",
+				"service"
+			],
+			[
+				"angu",
+				"angular"
+			],
+			[
+				"rout",
+				"Router"
+			],
+			[
+				"ge",
+				"getCategories"
+			],
+			[
+				"_ca",
+				"_categoryService"
+			],
+			[
+				"Ca",
+				"CategoryService"
+			],
+			[
+				"_rou",
+				"_router"
+			],
+			[
+				"ap",
+				"application"
+			],
+			[
+				"col",
+				"col-md-5"
+			],
+			[
+				"Rot",
+				"Router"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"ng",
+				"ngIf"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"uploa",
+				"uploadAPI"
+			],
+			[
+				"froal",
+				"froalaEditor"
+			],
+			[
+				"lo",
+				"logout"
+			],
+			[
+				"Act",
+				"ActivatedRoute"
+			],
+			[
+				"ent",
+				"identity"
+			],
+			[
+				"i",
+				"identityString"
+			],
+			[
+				"s",
+				"status"
+			],
+			[
+				"u",
+				"user"
+			],
+			[
+				"se",
+				"server"
+			],
+			[
+				"st",
+				"status"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"Conte",
+				"content-type"
+			],
+			[
+				"H",
+				"HttpHeaders"
+			],
+			[
+				"js",
+				"json"
+			],
+			[
+				"ober",
+				"Observable"
+			],
+			[
+				"tes",
+				"test"
+			],
+			[
+				"res",
+				"reset"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"Form",
+				"FormsModule"
+			],
+			[
+				"app",
+				"appRoutingProvider"
+			],
+			[
+				"Rout",
+				"RouterModules"
+			],
+			[
+				"Reg",
+				"RegisterComponent"
+			],
+			[
+				"ngO",
+				"ngOnInit"
+			],
+			[
+				"B",
+				"br"
+			],
+			[
+				"font",
+				"font-awesome"
+			],
+			[
+				"jq",
+				"jquery"
+			],
+			[
+				"boo",
+				"bootstrap"
+			],
+			[
+				"d",
+				"dist"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "blog-angular/src/app/components/post-list/post-list.component.html",
+			"settings":
+			{
+				"buffer_size": 2029,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog-angular/src/app/components/post-list/post-list.component.ts",
+			"settings":
+			{
+				"buffer_size": 533,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": ":any"
+					},
+					"BAAAAOcBAAAAAAAA6AEAAAAAAAAAAAAA6AEAAAAAAADpAQAAAAAAAAAAAADpAQAAAAAAAOoBAAAAAAAAAAAAAOoBAAAAAAAA6wEAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA5wEAAAAAAADnAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "blog-angular/src/app/components/user-edit/user-edit.component.html",
+			"settings":
+			{
+				"buffer_size": 2305,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog-angular/src/app/components/user-edit/user-edit.component.ts",
+			"settings":
+			{
+				"buffer_size": 3839,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/master-fullstack",
+		"/C/wamp64/www/master-fullstack/blog-angular",
+		"/C/wamp64/www/master-fullstack/blog-angular/src",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-list",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/profile",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/register",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/user-edit",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/Project-German/training-app/public/.htaccess",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/public/.htaccess",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services/user.service.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/home/home.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/category-detail/category-detail.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/profile/profile.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-list/post-list.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-detail/post-detail.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-list/post-list.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/category-detail/category-detail.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/home/home.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-list/post-list.component.css",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/styles.css",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/profile/profile.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/user.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/app.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/app.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services/post.service.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-detail/post-detail.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/app.routing.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/user-edit/user-edit.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-new/post-new.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-edit/post-edit.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-edit/post-edit.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-new/post-new.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services/global.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/user-edit/user-edit.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/post.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services/identity.guard.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/app.module.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/register/register.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services/category.service.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/category-detail/category-detail.component.css",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/category-new/category-new.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/package.json",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-new/post-new.component.spec.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-detail/post-detail.component.spec.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-edit/post-edit.component.css",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/home/home.component.spec.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/user-edit/user-edit.component.spec.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/angular.json",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/register/register.component.spec.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/category-new/category-new.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/login/login.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/category-new/category-new.component.css",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/register/register.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/login/login.component.html",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/routes/web.php",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/app/Http/Controllers/UserController.php",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/error/error.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/error/error.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/error/error.component.spec.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/error/error.component.css",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/index.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/node_modules/bootstrap/dist/css/bootstrap.rtl.css",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/category.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/app.component.css",
+		"/C/wamp64/www/master-fullstack/blog-angular/tsconfig.app.json",
+		"/C/wamp64/www/master-fullstack/blog-angular/package-lock.json",
+		"/C/wamp64/www/master-fullstack/blog-angular/tsconfig.json",
+		"/C/wamp64/www/master-fullstack/blog-angular/tsconfig.spec.json"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"posts",
+			">\n",
+			"3229"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "blog-angular/src/app/components/post-list/post-list.component.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "blog-angular/src/app/components/post-list/post-list.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "blog-angular/src/app/components/user-edit/user-edit.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2052,
+								2061
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "blog-angular/src/app/components/user-edit/user-edit.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3839,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "master-fullstack.sublime-project",
+	"replace":
+	{
+		"height": 44.8
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

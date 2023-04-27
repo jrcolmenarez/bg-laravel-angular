@@ -1,0 +1,13 @@
+<div class="loading" *ngIf="!posts">
+	cargando...
+</div>
+<div class="" *ngIf="posts">
+
+	<h1>{{page_title}}</h1>
+</div>	
+	<app-post-list [posts]="posts"
+					[identity]="identity"
+					[url]="url"
+					(delete)="deletePost($event)">
+	</app-post-list>
+

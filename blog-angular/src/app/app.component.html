@@ -1,0 +1,72 @@
+<head>
+
+</head>
+<div class="container"><!--CONTENEDOR PRINCIPAL-->
+  <br>
+  <!--BARRA DE NAVEGACION-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="/assets/images/angular.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      NG-BLog
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/inicio">
+              Inicio
+            </a>
+          </li>
+          <li class="nav-item" *ngFor="let category of categories">
+            <a class="nav-link active" [routerLink]="['categoria',category.id]">{{category.name}}</a>
+          </li>
+        <ul class="navbar-nav navbar-right">
+          <li class="nav-item"  *ngIf="!identity">
+            <a class="nav-link" routerLink="/registro">Registrate</a>
+          </li>
+          <li class="nav-item"  *ngIf="!identity">
+            <a class="nav-link" routerLink="/login">Login</a>
+          </li>
+        </ul>   
+        </ul>
+        <ul class="navbar-nav navbar-right">
+            <li class="nav-item" *ngIf="identity" >
+                <div class="avatar_mask">
+                    <img src="{{url+'user/avatar/'+identity.image}}" class="avatar_nav"/>
+                </div>
+            </li>
+            <li>
+              <div ngbDropdown *ngIf="identity && identity.name" class="dropdown nav-item navbar-nav mb-2 mb-lg-0">
+                <!--comienza sub-Menu con NG Bootstrap-->
+                    <a ngbDropdownToggle class="nav-link active" href="#" role="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                   {{identity.name+' '+identity.surname}}
+
+                  </a>
+                      <ul ngbDropdownMenu aria-labelledby="dropdownMenuButton1">
+                        <li><a ngbDropdownItem href="#" [routerLink]="['crear-entrada']">Crear Entrada</a></li>
+                        <li><a ngbDropdownItem href="#" [routerLink]="['crear-categoria']">Crear Categoria</a></li>
+                        <li><a ngbDropdownItem href="#" [routerLink]="['/perfil',identity.sub]">Mi Perfil</a></li>
+                        <li><a ngbDropdownItem href="#" [routerLink]="['/ajustes']">Ajustes</a></li>
+                        <li><a ngbDropdownItem href="#" [routerLink]="['/logout/1']">Cerrar Sesion</a></li>
+                      </ul>
+                </div>
+              </li>
+
+        </ul><!--AQUI TERMINA SUB MENU USUARIO-->
+      </div>
+  </div>
+</nav><!--TERMINA EL NAVBAR-->
+<br>
+<!--CONTENIDO-->
+<router-outlet></router-outlet>
+
+<footer>
+  <hr>
+    Master Full Stack &copy;
+  <hr>
+</footer>
+
+</div><!--CERRAR EL CONTENEDOR-->

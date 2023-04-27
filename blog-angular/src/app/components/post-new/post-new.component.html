@@ -1,0 +1,65 @@
+<div class="col-md-12 mt-3">
+	<h1>{{page_title}}</h1>
+	<p *ngIf="!is_edit">
+		Ingresa una nueva entrada en el Post !!!
+	</p>
+	<p *ngIf="is_edit && post">
+		Modifica el Post {{post.title}}
+	</p>
+	<hr>
+	<!-- mensajes de alerta -->
+	<div class="alert alert-success col-md-5" *ngIf="status == 'success'">
+		Se han actualizados tus datos.!!!
+	</div>
+	<div class="alert alert-danger col-md-5" *ngIf="status == 'error'">
+		No se ha actualizado los datos
+	</div>
+	<!-- FORMULARIO DE ENTRADA-->
+	<form class="col-md-5 ml-0 pl-0" #postNew="ngForm" (ngSubmit)="onSubmit(postNew)">
+		<div class="form-group">
+			<label for="title">Titulo</label>
+			<input type="text" name="title" #title="ngModel" [(ngModel)]="post.title" class="form-control" required>
+			<small *ngIf="!title.valid && title.touched" class="invalid-feedback d-block">
+				Favor Ingresar un titulo Valido.!
+			</small>
+		</div>
+
+		<div class="form-group">
+			<label for="content">Contenido</label>
+			<textarea [froalaEditor]="froala_option" name="content" #content="ngModel" [(ngModel)]="post.content" required></textarea>
+			<small *ngIf="!content.valid && content.touched" class="invalid-feedback d-block">
+				Debe ingresar contenido a la Entrada.!
+			</small>
+		</div>
+
+		<div class="form-group">
+			<label for="category_id">Categoria</label>
+			<select name="category_id" #category_id="ngModel" [(ngModel)]="post.category_id" class="form-select">
+				<option *ngFor="let category of categories" value="{{category.id}}">
+					{{category.name}}
+				</option>
+
+				
+			</select>
+		</div>
+
+		<div  class="form-group">
+			<label for="image">Imagen</label>
+
+				<div class="avatar_edit" *ngIf="is_edit && post.image">
+                    <img src="{{url+'post/image/'+post.image}}" class="avatar_edit"/>
+                </div>
+
+			<angular-file-uploader
+				[config]="afuConfig"
+
+				(ApiResponse)="imageUpload($event)">
+			</angular-file-uploader>
+			
+		</div>
+		
+		<input type="submit" value="Guardar" class="btn btn-success" [disabled]="postNew.invalid">
+	</form>
+	<br>
+</div>
+
